@@ -35,7 +35,7 @@ if st.button("Calcular"):
         else:
             st.success(f"Resultado: {num1} / {num2} = {num1 / num2}")
 
-st.caption(© 2026 - Desenvolvido por Tots | Todos os direitos reservados)
+st.caption("© 2026 - Desenvolvido por Tots | Todos os direitos reservados")
 
 components.html(
     """
