@@ -2,6 +2,10 @@ import streamlit as st
 import random
 import streamlit.components.v1 as components
 
+st.write("Créditos ao tots criador e publicador e tudo da calculadora")
+st.write("calculadora em python super eficaz e rápida")
+st.write("Esta é uma ferramenta gratuita desenvolvida em Python para ajudar em cálculos rápidos...")
+
 st.title("--- Calculadora Python --- 🧮")
 
 # Criamos uma caixa para escolher a operação
