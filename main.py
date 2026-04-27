@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 
 st.write("Créditos ao tots criador e publicador e tudo da calculadora")
 st.write("calculadora em python super eficaz e rápida")
-st.write("Esta é uma ferramenta gratuita desenvolvida em Python para ajudar em cálculos rápidos ")
+st.write("Esta é uma ferramenta gratuita desenvolvida em Python para ajudar em cálculos rápidos")
 
 st.title("--- Calculadora Python --- 🧮")
 
@@ -35,13 +35,9 @@ if st.button("Calcular"):
         else:
             st.success(f"Resultado: {num1} / {num2} = {num1 / num2}")
 
-# ... (todo o seu código da calculadora que já está lá)
-
-# No final de tudo, cole o código do AdSense assim:
 components.html(
     """
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4581971001324805"
-     crossorigin="anonymous"></script>
+    <meta name="google-adsense-account" content="ca-pub-4581971001324805">
     """,
     height=0
 )
