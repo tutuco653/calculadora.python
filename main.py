@@ -2,7 +2,6 @@ import streamlit as st
 import random
 import streamlit.components.v1 as components
 
-st.write("© 2026 - Desenvolvido por Tots | Todos os direitos reservados")
 st.write("Créditos ao tots criador e publicador e tudo da calculadora")
 st.write("Calculadora em Python super eficaz e rápida.")
 st.write("Esta é uma ferramenta gratuita desenvolvida em Python para ajudar em cálculos rápidos.")
@@ -35,6 +34,8 @@ if st.button("Calcular"):
             st.error("Erro: Divisão por zero não é permitida!")
         else:
             st.success(f"Resultado: {num1} / {num2} = {num1 / num2}")
+
+st.caption(© 2026 - Desenvolvido por Tots | Todos os direitos reservados)
 
 components.html(
     """
