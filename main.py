@@ -2,6 +2,10 @@ import streamlit as st
 import random
 import streamlit.components.v1 as components
 
+if st.query_params.get("page") == "ads.txt":
+    st.write("google.com, pub-4581971001324805, DIRECT, f08c47fec0942fa0")
+    st.stop()
+
 st.write("Créditos ao tots criador e publicador e tudo da calculadora🧮")
 st.write("Calculadora em Python super eficaz e rápida.")
 st.write("Esta é uma ferramenta gratuita desenvolvida em Python para ajudar em cálculos rápidos.")
