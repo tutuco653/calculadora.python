@@ -3,7 +3,7 @@ import random
 import streamlit.components.v1 as components
 
 if st.query_params.get("page") == "ads.txt":
-    st.write("google.com, pub-4581971001324805, DIRECT, f08c47fec0942fa0")
+    st.write("google.com, pub-3053200125100032, DIRECT, f08c47fec0942fa0")
     st.stop()
 
 st.write("Créditos ao tots criador e publicador e tudo da calculadora🧮")
